@@ -50,7 +50,7 @@ def uniqueUpdate(data1, data2):
                 dupKeys[k] = [v1, v2]
                 # Remove (k, v1) from data1
                 del data1[k]
-            else:
+           else:
                 # Add (k, v2) to data1
                 data1[k] = v2
     # After processing all (k, v2) in
